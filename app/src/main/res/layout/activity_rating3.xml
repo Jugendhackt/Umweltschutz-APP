@@ -6,24 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView18"
-        android:layout_width="196dp"
-        android:layout_height="46dp"
-        android:text="Aufgabe #Y"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="330dp" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="146dp"
-        android:layout_height="154dp"
-        app:srcCompat="@android:color/holo_green_light"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="169dp" />
-
-    <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/textView19"
         android:layout_width="192dp"
         android:layout_height="55dp"
         android:layout_marginStart="96dp"
@@ -31,49 +14,77 @@
         android:text="Nutzername"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button31" />
+        app:layout_constraintTop_toBottomOf="@+id/button27" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="196dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="94dp"
+        android:text="Aufgabe #Z"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="146dp"
+        android:layout_height="154dp"
+        app:srcCompat="@android:color/holo_green_light"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="169dp" />
 
     <Button
-        android:id="@+id/button34"
+        android:id="@+id/button30"
         android:layout_width="wrap_content"
         android:layout_height="86dp"
         android:layout_marginBottom="30dp"
         android:layout_marginEnd="30dp"
-        android:text="Button"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="19dp"
+        android:text="bestätigen"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button29"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
     <Button
-        android:id="@+id/button33"
+        android:id="@+id/button29"
         android:layout_width="wrap_content"
         android:layout_height="86dp"
         android:layout_marginBottom="30dp"
         android:layout_marginStart="30dp"
-        android:text="Button"
+        android:layout_marginTop="19dp"
+        android:text="melden"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
     <Button
-        android:id="@+id/button32"
+        android:id="@+id/button28"
         android:layout_width="wrap_content"
         android:layout_height="81dp"
         android:layout_marginBottom="426dp"
         android:layout_marginEnd="2dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="2dp"
-        android:text="Button"
+        android:text="home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button27"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button31"
+        android:id="@+id/button27"
         android:layout_width="280dp"
         android:layout_height="83dp"
         android:layout_marginBottom="426dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="2dp"
-        android:text="Button"
+        android:text="ranking"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />

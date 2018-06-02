@@ -10,9 +10,12 @@
         android:layout_width="369dp"
         android:layout_height="83dp"
         android:layout_marginBottom="5dp"
-        android:text="Button"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="8dp"
+        android:text="rating"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="8dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button10"
@@ -20,10 +23,12 @@
         android:layout_height="81dp"
         android:layout_marginBottom="426dp"
         android:layout_marginEnd="2dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="2dp"
-        android:text="Button"
+        android:text="home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -31,10 +36,12 @@
         android:layout_width="280dp"
         android:layout_height="83dp"
         android:layout_marginBottom="426dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="2dp"
-        android:text="Button"
+        android:text="ranking"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -43,9 +50,15 @@
         android:id="@+id/button14"
         android:layout_width="wrap_content"
         android:layout_height="83dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="318dp" />
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="45dp"
+        android:text="camera"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/textView6"

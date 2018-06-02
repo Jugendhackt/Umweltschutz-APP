@@ -38,7 +38,7 @@
         android:layout_height="83dp"
         android:layout_marginBottom="22dp"
         android:layout_marginStart="148dp"
-        android:text="Button"
+        android:text="camera"
         app:layout_constraintBottom_toTopOf="@+id/button17"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -46,10 +46,13 @@
         android:id="@+id/button17"
         android:layout_width="369dp"
         android:layout_height="83dp"
-        android:layout_marginBottom="5dp"
-        android:text="Button"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="8dp"
+        android:text="rating"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="8dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button16"
@@ -58,7 +61,7 @@
         android:layout_marginBottom="426dp"
         android:layout_marginEnd="2dp"
         android:layout_marginTop="2dp"
-        android:text="Button"
+        android:text="home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -70,7 +73,7 @@
         android:layout_marginBottom="426dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="2dp"
-        android:text="Button"
+        android:text="ranking"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
