@@ -13,3 +13,4 @@ In unserem Projekt versuchen wir eine App zu erstellen welche für den Schutz de
 Die Rangliste entsteht durch MySQL.
 Geprüft wird ein Post durch die User und durch GPS-Tracking,
 und man wird nicht in der Lage sein Bilder aus der Galerie zu posten, man kann nur die Kamera benutzen.
+Das Mockup represäntiert das letztendliche Layout.
